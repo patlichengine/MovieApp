@@ -1,3 +1,5 @@
+// create the initial connection links to the movie database
+// Please ensre that you use your own API Key to test this app
 const APILINK = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=f52fc526138371fc321eaacd5fa7f198&page=1';
 const IMG_PATH = 'https://image.tmdb.org/t/p/w1280';
 const SEARCHAPI = 'https://api.themoviedb.org/3/search/movie?api_key=f52fc526138371fc321eaacd5fa7f198&query=';
