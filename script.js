@@ -42,7 +42,7 @@ function createDivCard(data) {
   const center = document.createElement('center');
 
 
-  title.innerHTML = `${data.title}`;
+  title.innerHTML = `${data.title}<br><a class="review" href="movie.html?id=${data.id}&title=${data.title}">Reviews</a>`;
   image.src = IMG_PATH + data.poster_path;
 
   center.appendChild(image);
